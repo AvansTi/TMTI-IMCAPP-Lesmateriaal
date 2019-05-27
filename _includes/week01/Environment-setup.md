@@ -47,7 +47,7 @@ Remember to replace back-slashes with forward-slashes in the original Windows pa
 4. Save the script file.
 5. Close MSYS2 window and open it again. Check if ```IDF_PATH``` and ```ADF_PATH``` is set, by typing:
 
-```text
+```output
 printenv IDF_PATH
 printenv ADF_PATH
 ```
@@ -57,8 +57,8 @@ The path previusly entered in the script file should be printed out.
 If you do not like to have IDF_PATH set up permanently in user profile, you should enter it manually on opening of an MSYS2 window:
 
 ```output
-export IDF_PATH="C:/msys32/home/<USERNAME>/esp/esp-adf/esp-idf"
-export ADF_PATH="C:/msys32/home/<USERNAME>/esp/esp-adf"
+export IDF_PATH="C:/msys32/home/USERNAME/esp/esp-adf/esp-idf"
+export ADF_PATH="C:/msys32/home/USERNAME/esp/esp-adf"
 ```
 
 ## Step 4. Install the Required Python Packages
@@ -71,9 +71,10 @@ The python packages required by ESP-IDF are located in ```IDF_PATH/requirements.
 python -m pip install --user -r $IDF_PATH/requirements.txt
 ```
 
-Please check the version of the Python interpreter that you will be using with ESP-IDF. For this, run the command ```python --version``` and depending on the result, you might want to use `python2`, `python2.7` or similar instead of just `python`, e.g.:
+>Please check the version of the Python interpreter that you will be using with ESP-IDF. For this, run the command ```python --version``` and depending on the result, you might want to use `python2`, `python2.7` or similar instead of just `python`, e.g.:
+{: .tip}
 
-.tip
+
 
 
 ## Step 5. Start a Project
