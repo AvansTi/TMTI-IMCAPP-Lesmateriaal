@@ -1,0 +1,13 @@
+name: C++ & Datasturcturen
+title: C++ & Datasturcturen
+encoding: UTF-8
+markdown: kramdown
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+lsi: false
+safe: true
