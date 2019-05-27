@@ -11,15 +11,7 @@ title: Week 1
 
 # Assignments week 1
 
-{% include week01/exercise/01-character-search.md %}
+{% include week01/exercise/01-install-environment.md %}
 {: .exercises }
 
-{% include week01/exercise/02-number-validator.md %}
-{: .exercises }
-
-{% include week01/exercise/03-counting-characters.md %}
-{: .exercises }
-
-{% include week01/exercise/04-matrix-sum.md %}
-{: .exercises }
 End of week 1
