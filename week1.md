@@ -8,7 +8,7 @@ title: Week 1
 
 {% include week01/Environment-setup.md %}
 
-{% include week01/Visual-Studio-Setup.md %}
+{% include week01/Visual-Studio-Code-Setup.md %}
 
 
 # Assignments week 1
